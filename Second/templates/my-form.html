@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../static/CSS/mainstyles.css">
+  <title>Graphic Calculator</title> 
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+</head>
+
+<div id="title">Graphic Calculator</div>
+
+<img id="graph" alt="plot" src="{{ link }}" />
+
+
+<form action="/" id= "my-form" method="POST">
+  <input placeholder="Write your function here..." id="text" name="text" maxlength="100">
+  <input placeholder="Write initial x value..." id="x0" name="x0" type="number" step="0.01" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==10) return false;">
+  <input id="submit" type="submit" value="Submit">
+</form>
+
+<div id="table">
+  <table>
+    <col width="40%">
+    <col width="60%">
+    <tr>
+      <td class="subtitle">Test</td>
+      <td id="test">{{ test }}</td>
+    </tr>
+    <tr>
+      <td class="subtitle">Root</td>
+      <td id="result">{{ result }}</td>
+    </tr>
+    <tr>
+      <td class="subtitle">Message</td>
+      <td id="message">{{ message }}</td>
+    </tr>
+    <tr>
+      <td class="subtitle">Precision</td>
+      <td id="precision">{{ precision }}</td>
+    </tr>
+    <tr>
+      <td class="subtitle">Time (ms)</td>
+      <td id="time">{{ time }}</td>
+    </tr>
+    <tr>
+      <td class="subtitle">Function Calls</td>
+      <td id="calls">{{ calls }}</td>
+    </tr>
+  </table>
+</div>
+
+</html>

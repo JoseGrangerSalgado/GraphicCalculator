@@ -1,0 +1,80 @@
+Test: x^2 - 49, x0: 37
+Root: 7.0
+Message: Correct
+Precision: 0.0
+Time (ms): 0.00021890000000013288
+Function Calls: 7
+Execution time: 0.546607494354248 seconds
+
+Test: x^2 - 81, x0: 53
+Root: 9.000000000000004
+Message: Correct
+Precision: 7.105427357601002e-14
+Time (ms): 0.00020510000000006912
+Function Calls: 7
+Execution time: 0.47367191314697266 seconds
+
+Test: x, x0: -39
+Root: 0.0
+Message: Correct
+Precision: 0.0
+Time (ms): 6.990000000017815e-05
+Function Calls: 2
+Execution time: 0.5116324424743652 seconds
+
+Test: sin(x) + 11111, x0: 4
+Root: -192076573.11942965
+Message: Incorrect
+Precision: 11110.607995616212
+Time (ms): 0.045367099999999994
+Function Calls: 1001
+Execution time: 0.5745196342468262 seconds
+
+Test: cos(x+10), x0: 6
+Root: 10.420352248333655
+Message: Correct
+Precision: 9.803364199544708e-16
+Time (ms): 0.00028309999999986957
+Function Calls: 6
+Execution time: 0.5399892330169678 seconds
+
+Test: x/2 + 67.337182736, x0: 66
+Root: -134.674365472
+Message: Correct
+Precision: 0.0
+Time (ms): 9.660000000000224e-05
+Function Calls: 2
+Execution time: 0.4866981506347656 seconds
+
+Test: log(x), x0: -34
+Root: nan
+Message: Error div zero
+Precision: n/a
+Time (ms): 0.0001412999999992337
+Function Calls: 1
+Execution time: 0.4667854309082031 seconds
+
+Test: x^4 - 40, x0: -46
+Root: -2.5148668593515184
+Message: Correct
+Precision: 9.131255751526623e-10
+Time (ms): 0.00048519999999996344
+Function Calls: 14
+Execution time: 0.5137701034545898 seconds
+
+Test: x^5 + 55, x0: -48
+Root: -2.228807384031708
+Message: Correct
+Precision: 2.234017415503331e-10
+Time (ms): 0.001103700000000707
+Function Calls: 18
+Execution time: 0.521611213684082 seconds
+
+Test: log10(x) - 1, x0: -66
+Root: nan
+Message: Error div zero
+Precision: n/a
+Time (ms): 0.0001268999999997078
+Function Calls: 1
+Execution time: 0.47773146629333496 seconds
+

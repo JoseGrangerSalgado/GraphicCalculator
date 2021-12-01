@@ -1,0 +1,80 @@
+Test Number: 1
+Status Code: <Response [200]>
+Time (s): 0.044199228286743164
+
+Test Number: 2
+Status Code: <Response [200]>
+Time (s): 0.03294825553894043
+
+Test Number: 3
+Status Code: <Response [200]>
+Time (s): 0.03391122817993164
+
+Test Number: 4
+Status Code: <Response [200]>
+Time (s): 0.028934001922607422
+
+Test Number: 5
+Status Code: <Response [200]>
+Time (s): 0.029278993606567383
+
+Test Number: 6
+Status Code: <Response [200]>
+Time (s): 0.027970552444458008
+
+Test Number: 7
+Status Code: <Response [200]>
+Time (s): 0.028667211532592773
+
+Test Number: 8
+Status Code: <Response [200]>
+Time (s): 0.029906749725341797
+
+Test Number: 9
+Status Code: <Response [200]>
+Time (s): 0.0299222469329834
+
+Test Number: 10
+Status Code: <Response [200]>
+Time (s): 0.02995610237121582
+
+Test Number: 11
+Status Code: <Response [200]>
+Time (s): 0.0593266487121582
+
+Test Number: 12
+Status Code: <Response [200]>
+Time (s): 0.02992844581604004
+
+Test Number: 13
+Status Code: <Response [200]>
+Time (s): 0.029151439666748047
+
+Test Number: 14
+Status Code: <Response [200]>
+Time (s): 0.02991938591003418
+
+Test Number: 15
+Status Code: <Response [200]>
+Time (s): 0.027924537658691406
+
+Test Number: 16
+Status Code: <Response [200]>
+Time (s): 0.030957937240600586
+
+Test Number: 17
+Status Code: <Response [200]>
+Time (s): 0.030924081802368164
+
+Test Number: 18
+Status Code: <Response [200]>
+Time (s): 0.029927730560302734
+
+Test Number: 19
+Status Code: <Response [200]>
+Time (s): 0.029920578002929688
+
+Test Number: 20
+Status Code: <Response [200]>
+Time (s): 0.029919862747192383
+

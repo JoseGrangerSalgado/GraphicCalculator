@@ -1,0 +1,97 @@
+*, html{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+body{
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13% 77% 10%;
+    grid-template-areas: 
+    "title title"
+    "image table"
+    "form form";
+}
+
+#title{
+    grid-area: title;
+    font-weight: bold;
+    text-align: center;
+    margin: 2vh 0;
+    font-size: 7vh;
+}
+
+img{
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    object-fit: contain;
+}
+
+form{
+    grid-area: form;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    font-size: 3vh;
+    height: 60%;
+    border-radius: .3vw;
+}
+
+#text{
+    width: 55%;
+    padding: 1vh .5vw;
+}
+#text:hover{
+    cursor: auto;
+}
+
+#x0{
+    width: 20%;
+    padding: 1vh .5vw;
+}
+#x0:hover{
+    cursor: auto;
+}
+
+#submit{
+    width: 20%;
+    padding: 1vh 2vw;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+
+#table{
+    padding: 2%;
+}
+table{
+    grid-area: table;
+    border: solid rgb(131, 131, 131) .2vw;
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+}
+td{
+    border: solid rgb(131, 131, 131) .2vw;
+    margin: 0;
+    padding: 2%;
+}
+.subtitle{
+    font-weight: bold;
+}
+
